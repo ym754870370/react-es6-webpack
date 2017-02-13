@@ -15,6 +15,7 @@ var App = React.createClass({
                 <div>React Router: </div>
                 <div><a href="#/list">list page</a></div>
                 <div><a href="#/detail">detail page</a></div>
+                <div id="main"></div>
             </div>
         );
     }

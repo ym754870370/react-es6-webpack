@@ -1,7 +1,7 @@
 // var echarts = require('echarts');
 
 // 基于准备好的dom，初始化echarts实例
-var myChart = echarts.init(document.getElementById('app'));
+var myChart = echarts.init(document.getElementById('main'));
 // 绘制图表
 myChart.setOption({
     // title: { text: 'ECharts' },

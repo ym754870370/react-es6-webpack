@@ -59,6 +59,10 @@ myChart.setOption({
                 name: '节点4',
                 x: 550,
                 y: 500
+            }, {
+                name: '节点5',
+                x: 1000,
+                y: 500
             }],
             // links: [],
             links: [{
@@ -99,6 +103,9 @@ myChart.setOption({
             }, {
                 source: '节点1',
                 target: '节点4'
+            }, {
+                source: '节点2',
+                target: '节点5'
             }],
             lineStyle: {
                 normal: {

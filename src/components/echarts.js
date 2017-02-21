@@ -21,8 +21,8 @@ myChart.setOption({
         text: 'Graph 简单示例'
     },
     tooltip: {},
-    animationDurationUpdate: 1500,
-    animationEasingUpdate: 'quinticInOut',
+    animationDurationUpdate: 1500,//更新动画时长
+    animationEasingUpdate: 'quinticInOut',//主元素的缓动效果
     series : [
         {
             type: 'graph',

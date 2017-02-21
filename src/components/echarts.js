@@ -27,11 +27,11 @@ myChart.setOption({
         {
             type: 'graph',
             layout: 'none',
-            symbolSize: 50,
-            roam: true,
+            symbolSize: 50,//框体大小
+            roam: true,//是否支持移动，放大，缩小功能
             label: {
                 normal: {
-                    show: true
+                    show: true//直接显示框内文字，false为悬停时才显示
                 }
             },
             edgeSymbol: ['circle', 'arrow'],
@@ -39,14 +39,14 @@ myChart.setOption({
             edgeLabel: {
                 normal: {
                     textStyle: {
-                        fontSize: 20
+                        fontSize: 20//箭头上标记字体大小
                     }
                 }
             },
             data: [{
-                name: '节点1',
-                x: 300,
-                y: 300
+                name: '节点1',//节点名称
+                x: 300,//节点横坐标
+                y: 300//节点纵坐标
             }, {
                 name: '节点2',
                 x: 800,
@@ -65,10 +65,10 @@ myChart.setOption({
                 y: 500
             }],
             // links: [],
-            links: [{
+            links: [{//连接
                 source: 0,
                 target: 1,
-                symbolSize: [5, 20],
+                symbolSize: [5, 20],//箭头初始位置大小
                 label: {
                     normal: {
                         show: true
@@ -109,9 +109,9 @@ myChart.setOption({
             }],
             lineStyle: {
                 normal: {
-                    opacity: 0.9,
-                    width: 2,
-                    curveness: 0
+                    opacity: 0.9,//箭头透明度
+                    width: 2,//箭头粗细程度
+                    curveness: 0//箭头线弯曲
                 }
             }
         }

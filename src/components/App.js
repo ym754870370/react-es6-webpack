@@ -1,6 +1,4 @@
 'use strict';
-
-
 import React from 'react';
 import ReactDom from 'react-dom';
 
@@ -46,10 +44,4 @@ var Detail = React.createClass({
 });
 
 //最终渲染
-ReactDom.render((
-    <Router history={hashHistory}>
-        <Route path='/' component={App}></Route>
-        <Route path='/list' component={List} />
-        <Route path='/detail' component={Detail} />
-    </Router>
-), document.getElementById('app'));
+
